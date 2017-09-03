@@ -94,13 +94,16 @@
 
 
 
+<meta name="description" content="Programmer">
 <meta property="og:type" content="website">
-<meta property="og:title" content="SweetMilkCake&#39;s Notes">
+<meta property="og:title" content="SweetMilkCake&#39;s Blog">
 <meta property="og:url" content="http://yoursite.com/archives/index.html">
-<meta property="og:site_name" content="SweetMilkCake&#39;s Notes">
+<meta property="og:site_name" content="SweetMilkCake&#39;s Blog">
+<meta property="og:description" content="Programmer">
 <meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="SweetMilkCake&#39;s Notes">
+<meta name="twitter:title" content="SweetMilkCake&#39;s Blog">
+<meta name="twitter:description" content="Programmer">
 
 
 
@@ -109,7 +112,7 @@
   var CONFIG = {
     root: '/',
     scheme: 'Gemini',
-    sidebar: {"position":"left","display":"post","offset":12,"offset_float":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":12,"b2t":true,"scrollpercent":true,"onmobile":true},
     fancybox: true,
     tabs: true,
     motion: true,
@@ -135,12 +138,22 @@
 
 
 
-  <title>归档 | SweetMilkCake's Notes</title>
+  <title>归档 | SweetMilkCake's Blog</title>
   
 
 
 
 
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?e56215537ce5e9c54158c7eb3a2d2b40";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
 
 
 
@@ -171,12 +184,12 @@
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">SweetMilkCake's Notes</span>
+        <span class="site-title">SweetMilkCake's Blog</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
       
-        <p class="site-subtitle"></p>
+        <p class="site-subtitle">If you don't write it down, you don't learn it.</p>
       
   </div>
 
@@ -222,6 +235,16 @@
               <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
             标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
           </a>
         </li>
       
@@ -281,9 +304,9 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2017/08/20/hello-world/" itemprop="url">
+            <a class="post-title-link" href="/2017/09/04/url-resource/" itemprop="url">
               
-                <span itemprop="name">Hello World</span>
+                <span itemprop="name">网址资源</span>
               
             </a>
         
@@ -291,9 +314,9 @@
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
-              datetime="2017-08-20T21:42:34+08:00"
-              content="2017-08-20" >
-          08-20
+              datetime="2017-09-04T02:11:05+08:00"
+              content="2017-09-04" >
+          09-04
         </time>
       </div>
 
@@ -334,6 +357,8 @@
 
   <aside id="sidebar" class="sidebar">
     
+      <div id="sidebar-dimmer"></div>
+    
     <div class="sidebar-inner">
 
       
@@ -347,7 +372,7 @@
                alt="SweetMilkCake" />
           <p class="site-author-name" itemprop="name">SweetMilkCake</p>
            
-              <p class="site-description motion-element" itemprop="description"></p>
+              <p class="site-description motion-element" itemprop="description">Programmer</p>
           
         </div>
         <nav class="site-state motion-element">
@@ -362,7 +387,25 @@
           
 
           
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
 
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
           
 
         </nav>
@@ -383,6 +426,17 @@
                 </a>
               </span>
             
+              <span class="links-of-author-item">
+                <a href="http://www.jianshu.com/u/f2fb4c57aa11" target="_blank" title="JianShu">
+                  
+                    <i class="fa fa-fw fa-book"></i>
+                  
+                    
+                      JianShu
+                    
+                </a>
+              </span>
+            
           
         </div>
 
@@ -390,6 +444,24 @@
         
 
         
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-block">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              Links
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="https://raincal.top/" title="<ul><li>Raincal's Blog</li></ul>" target="_blank"><ul><li>Raincal's Blog</li></ul></a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="https://rainylog.com/" title="<ul><li>Rainy's Blog</li></ul>" target="_blank"><ul><li>Rainy's Blog</li></ul></a>
+                </li>
+              
+            </ul>
+          </div>
         
 
         
@@ -399,6 +471,13 @@
 
       
 
+      
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span id="scrollpercent"><span>0</span>%</span>
+          
+        </div>
       
 
     </div>
@@ -441,11 +520,6 @@
     </footer>
 
     
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
-    
 
   </div>
 
@@ -467,8 +541,6 @@
 
   
 
-
-  
 
 
 
@@ -497,9 +569,6 @@
 
   
   <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-
-  
-  <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
 
 
   
