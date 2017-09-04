@@ -1629,6 +1629,9 @@ pre .javascript .function {
 .fancybox-close:hover {
   border: none;
 }
+.post-wordcount {
+  display: inline-block;
+}
 .rtl.post-body p,
 .rtl.post-body a,
 .rtl.post-body h1,
@@ -1798,7 +1801,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #347fff;
+  background: #bea261;
 }
 .links-of-blogroll {
   font-size: 13px;
